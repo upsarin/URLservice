@@ -9,7 +9,7 @@ session_start();
 	
 	
 	//описать и вывести все параметры сайта из БД fields {system}, ну а пока что так
-	ini_set('display_errors', '1');
+	ini_set('display_errors', '0');
 
 
 	require_once ("app/core/model.php");
