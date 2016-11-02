@@ -14,9 +14,9 @@ class DBConnect {
     private $_connect = array(
         'host' => 'localhost',
         'port' => '3306',
-        'user' => 'searchsiru',
-        'pass' => 'love070691',
-        'name' => 'searchsiru',
+        'user' => '**********',
+        'pass' => '**********',
+        'name' => '**********',
         'charset' => 'utf8',
         'debug' => true
     );
