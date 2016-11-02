@@ -1,0 +1,214 @@
+@font-face {
+    font-family: Prosto2; /* vאנםטעףנא רנטפעא */
+    src: url(/css/fonts/bCUJ5v2X.ttf); /* ¾ףע ך פאיכף סמ רנטפעמל */
+}
+@font-face {
+    font-family: Prosto; /* vאנםטעףנא רנטפעא */
+    src: url(/css/fonts/4Jj2FfSi.ttf); /* ¾ףע ך פאיכף סמ רנטפעמל */
+}
+@font-face {
+    font-family: amaranthBold; /* vאנםטעףנא רנטפעא */
+    src: url(/css/fonts/amaranth-bold.ttf); /* ¾ףע ך פאיכף סמ רנטפעמל */
+}
+@font-face {
+    font-family: amaranthBolditalic; /* vאנםטעףנא רנטפעא */
+    src: url(/css/fonts/amaranth-bolditalic.ttf); /* ¾ףע ך פאיכף סמ רנטפעמל */
+}
+@font-face {
+    font-family: amaranthItalic; /* vאנםטעףנא רנטפעא */
+    src: url(/css/fonts/amaranth-italic.ttf); /* ¾ףע ך פאיכף סמ רנטפעמל */
+}
+@font-face {
+    font-family: amaranthRegular; /* vאנםטעףנא רנטפעא */
+    src: url(/css/fonts/amaranth-regular.ttf); /* ¾ףע ך פאיכף סמ רנטפעמל */
+	font-weight
+}
+@font-face {
+    font-family: Balthazar; /* vאנםטעףנא רנטפעא */
+    src: url(/css/fonts/Balthazar-Regular.ttf); /* ¾ףע ך פאיכף סמ רנטפעמל */
+}
+
+html {
+    background: url('/images/fon_main.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body {
+	width: 55%;
+    /* background-color: rgba(0,0,0,0.2); */
+    margin: 0 auto;
+	font-family: Prosto;
+}
+.navbar-top {
+	width: 96.2%;
+    background-color: rgba(255,255,255,0.4);
+}
+.navbar-top li{
+	list-style: none;
+    display: inline-block;
+    margin-left: 2px;
+}
+.navbar-top li a{
+    text-decoration: none;
+    color: orange;
+    font-size: 21px;
+    font-weight: bold;
+}
+.navbar-top li a:hover{
+	color: black;
+}
+.user-menu li{
+    list-style: none;
+    display: inline-block;
+}
+.user-menu {
+    background-color: rgba(255,255,255,0.4);
+    padding: 10px 5px;
+    margin: 0px 0px;
+}
+.user-menu a{
+	color: orange;
+	text-decoration: none;
+}
+.user-menu a:hover{
+	color: black;
+}
+.left-menu {
+    position: fixed;
+    left: 5%;
+    top: 15%;
+    background-color: rgba(255,255,255,0.4);
+	width: 15%;
+}
+.left-menu li{
+	list-style:none;
+}
+.left-menu li a{
+	color: orange;
+	text-decoration: none;
+}
+.left-menu li a:hover{
+	color: black;
+}
+.dot-container {
+	width: 100%;
+    height: auto;
+    min-height: 80%;
+    margin: 25px 0px;
+    background-color: rgba(255,255,255,0.4);
+}
+.container {
+    padding: 15px 25px;
+}
+.main-block {
+	padding: 15px 25px;
+}
+.element_title {
+	width: 20%;
+    float: left;
+}
+.element_content {
+	width: 35%;
+    float: left;
+}
+.element_date {
+	width: 30%;
+    float: left;
+}
+.work-status {
+	border-left: 50px solid red;
+    background-color: rgba(255,255,255,0.7);
+}
+.done-status {
+	border-left: 50px solid green; 
+    background-color: rgba(255,255,255,0.7);
+}
+.questions-status {
+    border-left: 50px solid grey;
+    background-color: rgba(255,255,255,0.7);
+}
+.element_footer {
+	width: 97.5%;
+    clear: both;
+    text-align: right;
+    margin: 15px 15px 0 0;
+    padding: 12px;
+    border-bottom: 2px solid orange;
+}
+.elementNews a {
+	color: orange;
+	text-decoration:none;
+}
+.elementNews a:hover {
+	color: black;
+}
+#tab-container ul li{
+	display: inline-block;
+}
+#tab-container ul li a {
+
+    background: rgba(255,255,255,0.7);
+    padding: 5px 15px;
+    margin: 0px 2px;
+}
+#tab-container ul li a:hover{
+    color: #B03D3D;
+	box-shadow: 6px -4px 10px 4px rgba(0,0,0,0.5);
+}
+a.active {
+	border: 3px solid grey;
+    padding: 5px 12px;
+}
+.container-block {
+	background: rgba(255,255,255,0.7);
+	min-height: 25%;
+    min-width: 55%;
+    width: auto;
+    height: auto;
+    padding: 25px 55px;
+}
+.detail_element_date {
+	background: rgba(255,255,255,0.7);
+    max-width: 30%;
+    padding: 5px;
+    border-right: 25px solid red;
+	margin: 5px 0px;
+}
+.detail_element_who {
+background: rgba(255,255,255,0.7);
+    max-width: 30%;
+    padding: 5px;
+    border-right: 25px solid green;
+	margin: 5px 0px;
+}
+.detail_element_content {
+	text-align: left;
+    max-width: 90%;
+    padding: 5px;
+    margin: 5px 0px;
+    background-color: rgba(255,255,255,0.7);
+}
+.detail_element_content::before {
+	cont: "Описание";
+}
+footer {
+    position: relative;
+    background-color: rgba(255,255,255,0.4);
+    width: 100%;
+    height: 70px;
+}
+.wrapper {
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+}
+.left {
+    float: left;
+    width: 45%;
+    margin: 10px;
+}
+.right {
+    float: right;
+    width: 45%;
+    margin: 10px;
+}

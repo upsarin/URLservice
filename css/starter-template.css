@@ -1,0 +1,401 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritence from `body` */
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+
+html,
+body {
+  height: 100%;
+  background-color: #333;
+}
+body {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+.loading_overlay {
+    width: 100%;
+    height: 100%;
+}
+.loading_overlay img{
+    width: 200px;
+	position: absolute;
+    margin: 20% -6%;
+	left: 49%;
+}
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+	display: none;
+	opacity: 0;
+	width: 100%;
+	height: 86%; /* For at least Firefox */
+    min-height: 86%;
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 30px;
+}
+
+.main-search:hover {
+	background: orange;
+	border-color: orange;
+	color: #ffffff;
+}
+
+input.form-control {
+	color: orange;
+	font-weight: bold;
+    font-size: 18px;
+}
+/*
+ * Header
+ */
+ .masthead-brand a:hover {
+	 
+ }
+ .logoleft {
+ margin-right: -11px;
+ }
+ .logoimg {
+	width: 40px;
+    position: relative;
+    left: 0px;
+ }
+ .logoright {
+	margin-left: -3px;
+ }
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+.orange{
+	color: orange;
+}
+.green {
+	color: #3CEC3C;
+}
+.bold {
+	font-weight: bold;
+	font-size: 20px;
+}
+.orange-back:hover{
+	background: orange;
+	color: white;
+	border-color: orange;
+}
+.masthead-nav > li {
+  display: inline-block;
+}
+.masthead-nav > li + li {
+  margin-left: 20px;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: orange;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #696969;
+}
+
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff; /* IE8 proofing */
+  color: rgba(255,255,255,.75);
+  border-bottom: 2px solid transparent;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: rgba(255,255,255,.25);
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+    float: right;
+  }
+}
+
+
+/*
+ * Cover
+ */
+ .green-partner {
+	font-weight: bold;
+ }
+.partners-list span {
+	color: orange;
+}
+
+.partners-list li {
+	text-align: left;
+    list-style: none;
+    color: white;
+    font-size: 16px;
+}
+.cover {
+  padding: 0 20px;
+}
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+.list-cat li a{
+	display: block;
+	color: orange;
+	text-shadow: none;
+	font-size: 15px;
+}
+.badge-cat {
+	float: right;
+}
+/*
+ * Footer
+ */
+
+.mastfoot {
+  color: #999; /* IE8 proofing */
+  color: rgba(255,255,255,.5);
+}
+
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
+  }
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 700px;
+  }
+}
+
+/* Custom css */
+.panel-heading {
+    color: orange !important;
+    text-shadow: none;
+    font-weight: bold;
+	background: white !important;
+}
+.panel-default{
+	margin-top: 20px;
+}
+.panel-body {
+    padding: 15px;
+	color: black;
+    text-shadow: none;
+}
+.panel>.table>tbody:first-child>tr:first-child td, .panel>.table>tbody:first-child>tr:first-child th {
+    border-top: 0;
+    color: grey;
+    text-shadow: none;
+}
+.pagination>li>a, .pagination>li>span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: orange;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    text-shadow: none;
+    font-weight: bold;
+}
+/*
+ * Base structure
+ */
+.masthead {
+    position: relative !important; 
+    top: 0;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+	text-shadow: none;
+	color: #989797;
+}
+
+.mastfoot {
+	position: relative !important;
+	bottom: 0;
+	width: 100% !important;
+}
+.div-stat{
+}
+.list-stat {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 0;
+    border-radius: 4px;
+    color: #13B513;
+    list-style: none;
+    font-weight: bold;
+    text-align: left;
+    text-shadow: none;
+    font-size: 16px;
+}
+.stats-tr {
+	margin-bottom: 10px;
+	border-bottom: 2px solid orange;
+}
+.alert_ask {
+	color: red;
+}
+.alert_ask:hover {
+	color: black;
+}
+.user_interface {
+	    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 300px;
+    z-index: 1000000;
+    background-color: orange;
+    height: 30px;
+    text-shadow: none;
+    font-weight: bold;
+    border-radius: 0px 0px 0px 50px;
+    color: white;
+}
+.cleardiv {
+	background-color: white;
+    height: 2px;
+    width: 100%;
+    margin: 20px 0px;
+}
+.breadcrumbs {
+	font-size: 12px;
+    font-weight: bold;
+	margin: 20px;
+}
+.glyphicon.glyphicon-send {
+	margin-right: 15px;
+}
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    z-index: 2;
+    color: #fff;
+    background-color: orange;
+    border-color: orange;
+}
+.int_left, .int-right {
+	display: inline-block;
+	width: 40%;
+}
+
+a.create {
+	background: green;
+    padding: 10px 35px;
+    border-radius: 10px;
+    /* margin-top: 20px; */
+    display: block;
+}
+a.create:hover {
+	background: orange;
+}
+
+input[name="main[orig_url]"] {
+	width: 720px;
+	margin-left: 40px;
+	float: left;
+}
+
+.short_link_error {
+	background: orange;
+	width: 400px;
+	height: 50px;
+	font-weight: bold;
+	padding: 15px;
+	border-radius: 15px;
+	top: 10px;
+	float: right;
+	position: relative;
+	margin-right: 65px;
+}
+
+.new_link {
+	background-color: orange !important;
+}
+
+#linkList li a {
+	color: black;
+}
+
+#linkList li {
+	width: auto;
+	background-color: white;
+	padding: 5px;
+	color: black;
+}

@@ -1,0 +1,283 @@
+@font-face {
+    font-family: Prosto2; /* vарнитура шрифта */
+    src: url(/css/fonts/bCUJ5v2X.ttf); /* ѕуть к файлу со шрифтом */
+}
+@font-face {
+    font-family: Prosto; /* vарнитура шрифта */
+    src: url(/css/fonts/4Jj2FfSi.ttf); /* ѕуть к файлу со шрифтом */
+}
+@font-face {
+    font-family: amaranthBold; /* vарнитура шрифта */
+    src: url(/css/fonts/amaranth-bold.ttf); /* ѕуть к файлу со шрифтом */
+}
+@font-face {
+    font-family: amaranthBolditalic; /* vарнитура шрифта */
+    src: url(/css/fonts/amaranth-bolditalic.ttf); /* ѕуть к файлу со шрифтом */
+}
+@font-face {
+    font-family: amaranthItalic; /* vарнитура шрифта */
+    src: url(/css/fonts/amaranth-italic.ttf); /* ѕуть к файлу со шрифтом */
+}
+@font-face {
+    font-family: amaranthRegular; /* vарнитура шрифта */
+    src: url(/css/fonts/amaranth-regular.ttf); /* ѕуть к файлу со шрифтом */
+	font-weight
+}
+@font-face {
+    font-family: Balthazar; /* vарнитура шрифта */
+    src: url(/css/fonts/Balthazar-Regular.ttf); /* ѕуть к файлу со шрифтом */
+}
+
+body {
+	width: 99%;
+    height: 100%;
+	background-image: url(/images/fon.jpg);
+    color: white;
+    font-family: Prosto;
+}
+table {
+	text-align:center;
+}
+select {
+	min-width: 173px;
+    text-align: left;
+}
+.input-content {
+	padding: 0px 0px 0px 50px;
+	text-align: left;
+}
+.createA {
+    text-decoration: none;
+    color: orange;
+    font-size: 20px;
+}
+.admin-menu {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+	height: 60px;
+    color: black;
+    background-image: url(/images/fon2.jpg);
+    width: 100%;
+    z-index: 1000000;
+}
+.main-block {
+    position: relative;
+    top: 100px;
+    left: 0px;
+    
+    color: black;
+    width: 100%;
+    min-height: 99%;
+    z-index: 3;
+}
+.pagination {
+	margin: 25px;
+}
+.pagination a {
+	color: orange;
+    padding: 2px 5px !important;
+	text-decoration: none;
+}
+.pagination a:hover {
+	color: orange;
+	text-decoration: none;
+	border: 3px solid orange;
+}
+.pagination a.active {
+	color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.left-menu {
+	position: relative;
+    top: 0px;
+    left: 0px;
+	width: 16%;
+    padding: 0px 25px 0px 0px;
+    height: 100%;
+    float: left;
+    background-color: rgba(255,255,255,0.3);
+}
+.content {
+    position: relative;
+    top: 0px;
+    left: 10px;
+	width: 78%;
+	height: auto;
+    float: left;
+    background-color: rgba(255,255,255,0.3);
+	padding: 0px 20px;
+	text-align: left;
+}
+.count {
+	color: #6ab42f;
+}
+
+.left {
+    float: left;
+    width: 55%;
+}
+.right {
+    float: right;
+    width: 35%;
+}
+ul li {
+list-style: none;
+}
+.admin-top li {
+	display: inline-block;
+}
+ul li a{
+	text-align: center;
+    text-decoration: none;
+    color: black;
+	font-weight: bold;
+}
+.phrase {
+    color: #D37373;
+    font-weight: bold;
+    font-family: Prosto2;
+}
+.activate:hover {
+	cursor: pointer;
+}
+ul li a:hover{
+	color:  orange;
+}
+.admin-top li a{
+	font-size: 20px;
+	padding: 3px;
+}
+.page-table{
+    width: 99%;
+}
+.page-table tr {
+	background-color: rgba(255, 255, 255, 0.36);
+    color: black;
+}
+.page-table tr td {
+	
+}
+.page-table a {
+	color: orange;
+}
+.page-table a:hover {
+	color: grey;
+	cursor: pointer;
+}
+.page-table tr:hover {
+	background-color: rgba(255, 255, 255, 0.8);
+}
+.page-table .titles {
+	background-color: white;
+    color: rgba(186, 182, 182, 0.82);
+}
+.admin-top li a:hover{
+	color: black;
+    text-decoration: none;
+    border: 2px solid white;
+	box-shadow: 6px -4px 10px 4px rgba(0,0,0,0.5);
+    padding: 1px;
+    background-color: rgba(0,0,0, 0.3);
+	
+	
+}
+.child-admin {
+    background-color: rgba(255,255,255,0.5);
+    padding: 5px 25px;
+}
+.send-btn {
+
+}
+#tab-container ul li{
+	display: inline-block;
+}
+#tab-container ul li a {
+
+    background: rgba(255,255,255,0.7);
+    padding: 5px 15px;
+    margin: 0px 2px;
+}
+#tab-container ul li a:hover{
+    color: #B03D3D;
+	box-shadow: 6px -4px 10px 4px rgba(0,0,0,0.5);
+}
+a.active {
+	border: 3px solid grey;
+    padding: 5px 12px;
+}
+.container-block {
+	background: rgba(255,255,255,0.7);
+	min-height: 25%;
+    min-width: 55%;
+    width: auto;
+    height: auto;
+    padding: 25px 55px;
+}
+.input-label {
+	color: black;
+	text-align: left;
+}
+.settings:hover{
+	cursor: pointer;
+	color: orange;
+}
+.settingsup {
+	display: none;
+	height: 40%;
+    background: rgba(255,255,255,0.8);
+    margin-top: -20px;
+}
+.new-field {
+	cursor: pointer;
+	color: orange;
+	margin: 0px 70px;
+}
+.new-field-users {
+	cursor: pointer;
+	color: orange;
+	margin: 0px 70px;
+}
+.section-btn.send {
+	background: rgba(103, 166, 211, 0.44);
+    border: none;
+    font-family: Prosto;
+    height: 24px;
+    width: 90%;
+    margin: 3px 5px;
+}
+.section-btn.send:hover{
+	cursor: pointer;
+	background: rgba(221, 32, 32, 0.42);
+}
+.submit {
+	background: rgba(103, 166, 211, 0.44);
+	width: 120px;
+    height: 30px;
+    margin: 10px 5px;
+	clear: both;
+}
+#edit-list ul li {
+	display: block !important;
+    border: 1px solid black;
+    max-width: 180px;
+    margin-top: 10px;
+}
+#edit-list li img {
+    height: 100px;
+    width: 180px;
+}
+#edit-list li a {
+	background: none;
+	display:block;
+}
+.left-menu-cats ul li.active a {
+    color: white !important;
+}
+.left-menu-cats ul li.active a span.count{
+    color: black !important;
+}
+.left-menu-cats ul li.active {
+    background: #6ab42f !important;
+}
