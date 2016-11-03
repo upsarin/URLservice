@@ -1,8 +1,8 @@
 <div class="inner cover" style="margin-top: 120px;width: 1000px;margin-left: auto;margin-right: auto;">
-			<h1 class="cover-heading" style="margin: 50px 0px 50px 0px;">Мы рады приветствовать Вас на сервисе <span class="orange">Sib</span><span class="green">S</span>ervice.</h1>
+			<h1 class="cover-heading" style="margin: 50px 0px 50px 0px;">Мы рады приветствовать Вас на сервисе <span class="orange">URL</span><span class="green">S</span>ervice.</h1>
 			
 			<ul class="nav nav-pills nav-stacked" id="main_tabs" style="width: 20%;float: left;">
-				<li><a href="#customer"  data-toggle="tab">Моим будущим боссам и коллегам</a></li>
+				<li><a href="#customer"  data-toggle="tab">Заметки</a></li>
 				<li class="active"><a href="#executor"  data-toggle="tab">О функционале</a></li>
 				
 			</ul>
@@ -12,8 +12,7 @@
 				<div class="tab-pane" id="customer">
 					
 					<p class="lead" style="height: 274px;">
-						Я, Пятков Максим Владиславович, очень хочу работать у вас, потому что мне понравилась сама идея сложности и неординарности задач, с которыми мне придеться столкнуться, тестовое задание я сделал имено на прототипе своей CMS по причине того, что я хочу показать, что я не обычный программист, и очень люблю писать своими руками, а также могу справиться с любыми задачами. <br />
-						Заранее извиняюсь за некоторые косяки в верстке.
+						В данной версии я попытался выполнить тестовое задание и улучшить некоторые вещи относительно CMS, а также выложил предпоследнюю версию на движка <a href="https://github.com/usparin/URLservice">GitHub</a>
 					</p>			  
 				</div>
 				
@@ -29,6 +28,9 @@
 						</li>
 						<li>
 							Посетитель получает укороченный URL, который соответствует оригинальному, и может перейти по ссылке - оригиналу
+						</li>
+						<li>
+							Также все укороченные ссылки сохраняются в БД.
 						</li>
 					</ul>
 					</p>

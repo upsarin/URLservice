@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	
 	<meta name="robots" content="index, follow">
-	<meta name="keywords" content="заказ услуг, запрос услуг, доска объявлений, найти исполнителя, подрядчика, поиск заказов">
-	<meta name="description" content="Ищите исполнителя для оказания услуг по хозяйству, ремонту, грузоперевозкам,сиделку, репетитора? Дайте объявление ЗАПРОС на УСЛУГУ на нашем сайте.">
+	<meta name="keywords" content="Сервис по урезанию ссылок">
+	<meta name="description" content="Сервис делающий ссылки меньше">
 	
     <meta name="description" content="">
     <meta name="author" content="">
