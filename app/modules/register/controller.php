@@ -1,4 +1,7 @@
 <?php
+
+//модуль регистрации
+
 Class register {
 
 	public $model;

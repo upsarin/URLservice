@@ -1,4 +1,5 @@
 <?php
+//модуль хлебных крошек
 Class breadcrumbs {
 
 	public $model;

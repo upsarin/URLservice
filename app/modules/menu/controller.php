@@ -1,4 +1,7 @@
 <?php
+
+//модуль по построению меню
+
 Class menu {
 
 	public $model;

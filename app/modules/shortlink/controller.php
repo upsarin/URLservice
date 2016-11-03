@@ -1,4 +1,7 @@
 <?php
+
+//модуль коротких ссылок, отвечает за урезания длинных ссылок и превращение их в более комфортный вид
+
 Class shortlink {
 
 	public $model;
@@ -29,7 +32,7 @@ Class shortlink {
 		$data = $this->model->save_data($page, $array, $post);
 		if(isset($data['error']) && !empty($data['error'])){
 			echo $data['error'];
-			echo "<a href='javascript:void(window.history(-1))'>назад</a>";
+			History("-1");
 			//задать шаблон для ошибки
 		} else {
 			

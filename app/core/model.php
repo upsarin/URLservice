@@ -9,7 +9,7 @@ class Model
 	{
 		
 		
-		$routes = explode('/', $_SERVER['REQUEST_URI']);
+		
 		
 			if(isset($_POST['action'])){
 				if($_POST['action'] == 'activate'){
@@ -290,11 +290,11 @@ class Model
 	}
 	
 	public function login(){
-		
+		//реализовано ввиде модуля "modules/login/"
 	}
 	
 	public function logout(){
-		
+		//реализовано ввиде модуля "modules/login/"
 	}
 	
 	public function deactivate($array){

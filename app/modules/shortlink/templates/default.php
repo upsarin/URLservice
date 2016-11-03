@@ -53,7 +53,7 @@
 				<?if(count($data['content']['content']) > 0){ ?>
 					<?foreach($data['content']['content'] as $key => $val){ ?>
 						<li>
-							<a href="<?=$val['orig_url']?>" id="<?=$val['id']?>" target="_blank"><?=$val['edit_url']?></a>
+							<a href="<?=$val['orig_url']?>" id="<?=$val['id']?>" target="_blank"><i class="glyphicon glyphicon-share"></i></a>  <?=$val['edit_url']?>
 						</li>
 					<? } ?>
 				<? } else { ?>

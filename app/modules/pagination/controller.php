@@ -1,4 +1,7 @@
 <?php
+
+//модуль для построения пагинации
+
 Class pagination {
 
 	public $model;

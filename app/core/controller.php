@@ -23,7 +23,7 @@ Class Controller {
 	
 	public function index($array)
 	{	
-		if($_SESSION['user']['permissions'] > $array['permission']) {
+		if(User::permission($array['permission'])) {
 			if($array['name'] == 'administrator'){
 				echo minc::pos('admin-login', $array['id']);
 			} else {

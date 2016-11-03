@@ -37,10 +37,10 @@ class ShortlinkModel
 			$first_part_link = $first_post_array;
 			$second_part_link = md5($end_post_array. rand(0,9) ."foryou". rand(0,9) . date("YdmHis"));
 			
-			
-			
 			$post['shortlink']['main']['edit_url'] = "http://" . $_SERVER['HTTP_HOST'] ."/". substr($second_part_link, 0, 4);
 			
+			
+			//проверка на существование сгенерированной ссылки
 			$check_url = Element::SelectAll('shortlink', $filter=array("edit_url" => $post['shortlink']['main']['edit_url']), $page=NULL, $limit=NULL);
 			
 			while(count($check_url) > 0){
@@ -55,21 +55,21 @@ class ShortlinkModel
 		$query = Element::SaveElementsWithImages(array($post['shortlink']));
 		if($query['confirm'] == true){
 			if(!empty($array['confirm_phrase'] && $_REQUEST['ajax'] != "Y")){
-				$mess['mess'] = $array['confirm_phrase'];
+				$data['mess'] = $array['confirm_phrase'];
 			} else if($_REQUEST['ajax'] == "Y"){
-				$mess['mess'] = json_encode(array("id" => $query['id'], "orig_url" => $first_post_array . $end_post_array, "edit_url" => $post['shortlink']['main']['edit_url']));
+				$data['mess'] = json_encode(array("id" => $query['id'], "orig_url" => $first_post_array . $end_post_array, "edit_url" => $post['shortlink']['main']['edit_url']));
 			} else {
-				$mess['mess'] = "Успешное сохранение.";
+				$data['mess'] = "Успешное сохранение.";
 			}
 			
 		} else {
 			if(!empty($array['error_phrase'])){
-				$mess['mess'] = $array['error_phrase'];
+				$data['mess'] = $array['error_phrase'];
 			} else {
-				$mess['mess'] = "Произошла ошибка при сохранении.";
+				$data['mess'] = "Произошла ошибка при сохранении.";
 			}
 		}
-		return $mess; 
+		return $data; 
 		
 	}
 	

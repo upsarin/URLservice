@@ -19,6 +19,7 @@ class User
 	}
 	
 	static function permission($permission){
+		
 		if($_SESSION['user']['permissions'] > $permission){
 			header("Location: /");
 		}

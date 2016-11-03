@@ -1,4 +1,7 @@
 <?php
+//недоделан до конца
+//модуль для показа html
+
 Class html {
 
 	public $model;
