@@ -66,7 +66,7 @@ $(document).ready(function(){
 				}
 				var newLi = document.createElement('li');
 				newLi.className = "new_link";
-				newLi.innerHTML = '<a href="' + obj.orig_url + '" id="' + obj.id + '" target="_blank">' + obj.edit_url + '</a>';
+				newLi.innerHTML = '<a href="' + obj.orig_url + '" id="' + obj.id + '" target="_blank"><i class="glyphicon glyphicon-share"></i></a>  ' + obj.edit_url;
 				
 				
 				

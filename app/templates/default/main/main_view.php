@@ -12,7 +12,7 @@
 				<div class="tab-pane" id="customer">
 					
 					<p class="lead" style="height: 274px;">
-						В данной версии я попытался выполнить тестовое задание и улучшить некоторые вещи относительно CMS, а также выложил предпоследнюю версию на движка <a href="https://github.com/usparin/URLservice">GitHub</a>
+						В данном проекте я попытался выполнить тестовое задание и улучшить некоторые вещи относительно CMS, а также выложил предпоследнюю версию проекта на <a href="https://github.com/usparin/URLservice">GitHub</a>
 					</p>			  
 				</div>
 				
